@@ -3,7 +3,7 @@ $FORMS = Array();
 
 $FORMS['form_block'] = <<<END
 
-<form action="https://paybox.kz/payment.php" method="post">	
+<form action="https://api.paybox.money/payment.php" method="post">	
 
 	   <input type="hidden" name="pg_merchant_id" value="%pg_merchant_id%" />
 	   <input type="hidden" name="pg_order_id" value="%pg_order_id%" />
