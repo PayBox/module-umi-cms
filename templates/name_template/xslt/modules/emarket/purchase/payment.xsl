@@ -1,4 +1,4 @@
-	<xsl:template match="purchasing[@stage = 'payment'][@step = 'platron']">
+	<xsl:template match="purchasing[@stage = 'payment'][@step = 'paybox']">
 		<form action="https://api.paybox.money/payment.php" method="POST">
 
 			<input type="hidden" name="pg_merchant_id" value="{pg_merchant_id}" />
